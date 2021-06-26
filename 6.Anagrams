@@ -1,0 +1,20 @@
+Anagrams
+An anagram is a word, phrase, or name formed by rearranging the letters of another word, phrase or name.
+Write a function to check if the given two strings are anagrams or not. return “Yes” if they are anagrams otherwise return “No”.
+Input specification:
+Input1: The first string.
+Input2: The second string.
+Output Specification:
+return “Yes” if they are anagrams otherwise return “No”.
+Example 1:
+Input 1: build
+Input 2: dubli
+Output: Yes
+Explanation:
+build and dubli are anagrams
+Example 2:
+Input 1: abcde
+Input 2: bcdef
+Output: No
+Explanation:
+abcde and bcdef are not anagrams
