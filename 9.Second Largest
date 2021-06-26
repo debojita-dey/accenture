@@ -18,3 +18,13 @@ Output: 8
 Explanation:
 8 is the second largest in the array.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+n=int(input())
+l=list(map(int,input().split(",")))
+s=set(l)
+x=list(s)
+p=max(x)
+x.remove(p)
+y=max(x)
+print(y)
