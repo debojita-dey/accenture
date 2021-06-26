@@ -1,0 +1,21 @@
+Remainder mod 11
+Given a string (of maximum length 1000) representing a large number. Output is modulo of 11.
+Input specification:
+Input 1: A large number in the form of a string.
+Output Specification:
+Return the remainder modulo 11 of input 1.
+Example 1:
+Input 1: 121
+Output: 0
+Explanation:
+121 mod 11 = 0
+Example 2:
+Input 1: 13
+Output: 2
+Explanation:
+13 mod 11 = 2
+
+
+n=int(input())
+p=n%11
+print(p)
