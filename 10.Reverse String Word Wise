@@ -1,0 +1,21 @@
+Reverse String Word Wise
+Write a function to reverse a string word-wise.
+Input specification:
+Input 1: String
+Output Specification:
+Return the reversed string that is the last word in input string should come at the first position of the output string second last word at he second position and so on., individual words should remain same.
+Example 1:
+Input 1: Welcome to code.
+Output : code to Welcome
+Explanation:
+Reversed string word wise
+Example 2:
+Input 1: Code to Crack Puzzle
+Output : Puzzle Crack tp Code
+Explanation:
+Reversed string word wise
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+n=input().split()
+r=n[::-1]
+p=" ".join(r)
+print(p)
