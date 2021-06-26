@@ -22,3 +22,20 @@ n : 13
 k : 3
 Sample Output :
 9
+
+
+
+x=int(input())
+#x=19
+y=int(input())
+#y=2
+x=list(bin(x))
+#x=bin(19) =&gt; 'ob10011'
+#list('ob10011')==&gt; ['o','b,'1','0','0','1','1']
+print(x)
+#['o','b,'1','0','0','1','1']
+
+x[-y]='0' 
+#Right to Left. So, Negative Indexing. then Set '0'
+#['o','b,'1','0','0','0','1']
+print(int("".join(x[2:]),2))
