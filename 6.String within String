@@ -1,0 +1,27 @@
+String within String
+Given two strings, ‘X’ and ‘Y’ (length(X)>=1, length(Y)<=10000), find out if ‘Y’ is contained in ‘X’
+Input specification:
+Input1: The string ‘X’.
+Input2: The string ‘Y’.
+Output Specification:
+Return “yes” if ‘Y’ is contained in ‘X’ else return no.
+Example 1:
+Input 1: abac
+Input 2: ab
+Output: yes
+Explanation:
+ab is present with abac
+Example 2:
+Input 1: xyac
+Input 2: xz
+Output: no
+Explanation:
+xz is not present within xyac
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+n=str(input())
+p=str(input())
+if p in n :
+    print("yes")
+else:
+    print("no")
