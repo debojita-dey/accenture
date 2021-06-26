@@ -1,0 +1,23 @@
+Maximum Sum
+Write a program that adds up the largest row sum and the largest column sum from an N-rows *M-columns array numbers.
+Input specification:
+Input1: Integer for row dimension of the array.
+Input2: Integer for column dimension of the array.
+Input3: Array elements to be entered in row major.
+Output Specification:
+Largest row sum + Largest column sum
+Example 1:
+Input 1: 2
+Input 2: 2
+Input 3: {1,2,5,6}
+Output: 19
+Explanation:
+Largest row(5,6) + Largest Column(2,6) = 11 + 8 =19
+Example 2:
+Input 1: 3
+Input 2: 3
+Input 3: {1,2,3,4,5,6,7,8,9}
+Output: 42
+Explanation:
+Largest row(7,8,9) + Largest Column(3,6,9) = 24 + 18 = 42
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
