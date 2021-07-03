@@ -1,0 +1,41 @@
+Quadratic Equation Roots
+Write a function to calculate roots of a quadratic equation of the from ax^2+bx+c=0
+The formula to find the roots of a quadratic equation is given below:
+X+ = (-b + root of (b^2 – 4ac))/2a
+X- = (-b – root of (b^2 – 4ac))/2a
+Input specification:
+Input 1: A double value representing the coefficient value of x^2 in a quadratic equation.
+Input 2: A double value representing the coefficient value of x in a quadratic equation.
+Input 3: A double value representing the coefficient value of 1 in a quadratic equation.
+Output Specification:
+Return a double array representing the value of the two roots.
+Note: Consider the output root values off to 3 decimal places. Assume all roots are real.
+Example 1:
+Input 1: 1
+Input 2: -2
+Input 3: -3
+Output: {3.0,-1.0}
+Explanation:
+On substituting the values of a,b and c in the formula, the roots will be as follows:
+x+ = 3.0
+x- = -1.0
+Example 2:
+Input 1: 2
+Input 2: 4
+Input 3: 1
+Output: {-1.707, -0.293}
+
+
+
+
+import math
+a=int(input())
+b=int(input())
+c=int(input())
+
+pos = (-b + math.sqrt((b**2) - (4*a*c)))/(2*a)
+
+neg = (-b - math.sqrt((b**2) - (4*a*c)))/(2*a)
+
+print(round(neg,3),round(pos,3))
+
