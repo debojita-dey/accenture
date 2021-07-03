@@ -1,0 +1,23 @@
+Sum of Uncommon Elements
+The function accepts two integer arrays ‘arr’ and ‘arr2’ of sizes n and m respectively as its argument. Implement the function to find and return the sum of all uncommon elements in two arrays (elements which are present in only one of the array).
+Note:
+Return -1 if both arrays are null (None in the case of Python).
+If one of the arrays is null then return the sum of all elements of the other array.
+Example 1:
+Input 1: 9 -4 3 2 -5
+Input 2: 2 -5 7 9
+Output: 6
+Explanation:
+Uncommon elements of two arrays are -4,3 and 7. Sum of uncommon elements = -4 + 3 + 7 = 6. Thus, output is 6.
+
+
+
+l=list(map(int,input().split(" ")))
+p=list(map(int,input().split(" ")))
+s1=set(l)
+s2=set(p)
+d=s1.symmetric_difference(s2)
+f=print(sum(d))
+    
+
+
