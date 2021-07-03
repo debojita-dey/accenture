@@ -1,0 +1,24 @@
+String Palindrome
+Write a function to find if the given string string is palindrome or not. Return 1 if the input string is a palindrome, else return 0.
+Input specification:
+Input 1: A string of characters.
+Output Specification:
+0 or 1 depending on whether the string is a palindrome or not.
+Example 1:
+Input 1: level
+Output: 1
+Explanation:
+The reverse of string ‘level’ is ‘level’. As they are same hence the string is a palindrome.
+Example 2:
+Input 1: abcd
+Output: 0
+Explanation:
+The reverse of string ‘abcd’ is ‘dcba’. As they are not the same hence the string is not a palindrome.
+
+
+l=input()
+r=l[::-1]
+if(l==r):
+    print("1")
+else:
+    print("0")
