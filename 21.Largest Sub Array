@@ -1,0 +1,32 @@
+Largest Sub Array
+Given an array containing only 0’s and 1’s, Find the largest subarray containing an equal number of 0s and 1s.
+Input specification:
+Input 1: The length of an array.
+Input 2: Array containing 0s and 1s.
+Output Specification:
+Return the length of the largest sub-array containing equal no. of 0s and 1s.
+Example 1:
+Input 1: 4
+Input 2: {1,1,0,1}
+Output: 2
+Explanation:
+The largest possible array here would be of length 2 as there should be an equal number of 0 and 1 in it. The starting index and ending index of the largest subarray is 1 and 2. Hence the output is 2.
+Example 2:
+Input 1: 5
+Input 2: {1,1,1,1,1}
+Output: 0
+Explanation:
+In the above example, there are no 0s in the array. Hence the output is 0.
+
+
+# cook your dish here
+n=int(input())
+l=list(map(int,input().split(",")))
+p=l.count(0)
+s=l.count(1)
+print(p)
+print(s)
+print(abs(p-s))
+
+
+error
