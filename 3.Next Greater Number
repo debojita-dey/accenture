@@ -20,4 +20,13 @@ The next greater number after 2345 is 2345 using {2,3,4,5}
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+# cook your dish here
+x=int(input())
+y=list(str(x))
 
+while True:
+    x+=1 
+    a=list(str(x))
+    if sorted(a)==sorted(y):
+        print(x)
+        break
